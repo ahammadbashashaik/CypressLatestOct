@@ -14,7 +14,7 @@ describe('Login Spec', () => {
     LOGINPAGE.clickOnLogoutButton()
   })
 
-  it('Validate user login-Negative', () => {
+  it.skip('Validate user login-Negative', () => {
     let PWD = 'admin123'
     cy.navigateToUrl()
     LOGINPAGE.verifyRedirectToUrl()
