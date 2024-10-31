@@ -28,4 +28,8 @@ describe('Login Spec', () => {
   it('Negative validation', () => {
     expect(true).to.equal(false)
   })
+
+  it('positive validation', () => {
+    expect(true).to.equal(true)
+  })
 })
